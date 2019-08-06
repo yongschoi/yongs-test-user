@@ -1,0 +1,10 @@
+CREATE TABLE `user` (
+	`username` VARCHAR(50) NOT NULL,
+	`password` VARCHAR(50) NULL DEFAULT NULL,
+	`enabled` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`username`),
+	UNIQUE INDEX `username` (`username`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+;
