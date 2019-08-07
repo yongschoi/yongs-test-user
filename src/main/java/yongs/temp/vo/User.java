@@ -1,4 +1,4 @@
-package yongs.temp.db.vo;
+package yongs.temp.vo;
 
 public class User {
 	private String username;

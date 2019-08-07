@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import yongs.temp.db.vo.User;
 import yongs.temp.service.UserService;
+import yongs.temp.vo.User;
 
 @RestController
 @RequestMapping("/users")

@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import yongs.temp.db.mapper.UserMapper;
-import yongs.temp.db.vo.User;
+import yongs.temp.vo.User;
 
 @Service
 public class UserService {
